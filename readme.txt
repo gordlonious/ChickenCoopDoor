@@ -15,7 +15,7 @@ Project Dependencies
 		Arduino Nano chip with ATMega328P microcontroller, https://store.arduino.cc/usa/arduino-nano
 		DC 12V 320rpm Encode Gear Reducer Motor Electric Gear Box Motor, https://www.banggood.com/DC-12V-320rpm-Encode-Gear-Reducer-Motor-Electric-Gear-Box-Motor-p-1068577.html
 		KOOKYE photosensitive light sensor module (no. 12?) -- not very much documentation
-		Geekcreit L298N Dual H Bridge Stepper Motor Driver Board For Arduino
+		Geekcreit L298N Dual H Bridge Stepper Motor Driver Board For Arduino, https://www.banggood.com/Wholesale-Dual-H-Bridge-DC-Stepper-Motor-Drive-Controller-Board-Module-Arduino-L298N-p-42826.html?cur_warehouse=USA
 		
 Power
 	Motor - rated at 12V (DC), optimal operating current = 0.6A, max current = 1.2A, min current = 0.15 (at no load)

@@ -8,6 +8,8 @@ bool DoorIsOpen = false; // assume door is shut to start with (night)
 void setup() {
   pinMode(StepperPin1, OUTPUT); // each output pin can provide ~40mA of current to external hardware
   pinMode(StepperPin2, OUTPUT);
+  pinMode(MotorControlPin1, OUTPUT);
+  pinMode(MotorControlPin2, OUTPUT);
 }
 
 void loop() 
@@ -31,7 +33,7 @@ void loop()
 }
 
 // param 1: duration (in seconds) that the light level is consistently 'light' or 'dark' before returning
-// returns: true if light level is consistently 'light' or 'dark' for the specified duration
+// returns: struct indicating whether sensor reads have been consistent and whether the consistent reads were 'light' or 'dark'
 // TODO: decrease amount of reads (include delay, effects duraction math)
 LightData CheckForConsistentLightReading(int dur) {
   int nor = 1000000 * dur / 100;
