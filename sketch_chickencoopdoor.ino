@@ -8,8 +8,6 @@ bool DoorIsOpen = false; // assume door is shut to start with (night)
 void setup() {
   pinMode(StepperPin1, OUTPUT); // each output pin can provide ~40mA of current to external hardware
   pinMode(StepperPin2, OUTPUT);
-  pinMode(MotorControlPin1, OUTPUT);
-  pinMode(MotorControlPin2, OUTPUT);
 }
 
 void loop() 

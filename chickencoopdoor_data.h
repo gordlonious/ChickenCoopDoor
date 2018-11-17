@@ -1,9 +1,9 @@
-const int StepperPin1 = A0;
-const int StepperPin2 = A1;
-const int MotorControlPin1 = A2;
-const int MotorControlPin2 = A3;
+const int StepperPin1 = A2;
+const int StepperPin2 = A4;
+const int EncoderPin1 = 6;
+const int EncoderPin2 = 8;
 
-const int DaylightPin = A4; // defaults to INPUT mode
+const int DaylightPin = A6; // defaults to INPUT mode
 
 struct LightData  {
 	int lightLevel;
