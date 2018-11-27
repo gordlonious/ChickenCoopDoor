@@ -25,3 +25,28 @@ Pins
 	4 pins for the motor (2 for encoder, 2 for control)
 	2 for the stepper
 	
+Wiring
+	
+	VCC means positive input voltage (pin)
+
+	Photo resistor
+		D0 (yellow) -> A6 on arduino
+		GND (red) -> (black) GND on arduino
+		VCC (black) -> (red) A7 on arduino
+	
+	Motor
+		M1 (red) -> OUT2 on stepper
+		GND (black) -> GND on stepper
+		C1 (yellow) -> D8 on arduino
+		C2 (green) -> D6 on arduino
+		VCC (blue) -> 12V input pin on stepper
+		M2 (white) -> OUT1 on stepper
+		
+	Power adapter
+		
+		1 pin to 12V input on stepper and 1 pin to GND on stepper
+		
+	Stepper (2 left that have not already been mentioned)
+	
+		IN1 -> A4 on arduino
+		IN2 -> A2 on arduino
